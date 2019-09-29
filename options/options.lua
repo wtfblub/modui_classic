@@ -684,9 +684,5 @@
     e:RegisterEvent'VARIABLES_LOADED'
     e:SetScript('OnEvent', OnEvent)
 
-    SLASH_MODUI = '/modui'
-    SlashCmdList['MODUI'] = function(msg)
-        menu:Show()
-    end
 
     --
