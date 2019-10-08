@@ -110,7 +110,7 @@
 	ns.CUSTOM_FACTION_BAR_COLORS 	= CUSTOM_FACTION_BAR_COLORS
 
 	local OnEvent = function(self, event, ...)
-		AddPowerColour()
+		--AddPowerColour()
 	end
 
 	local e = CreateFrame'Frame'
